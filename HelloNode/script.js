@@ -66,8 +66,97 @@
 // }
 // sumStr("4", "5");
 
-function otherAngle(a, b) {
+//function otherAngle(a, b) {
 
-  return console.log(180 - (a+b));
-}
-otherAngle(30, 60);
+//   return console.log(180 - (a+b));
+// }
+// otherAngle(30, 60);
+
+// function bmi(weight, height) {
+//   let bmi = 0;
+//   bmi = weight / (height *height);
+//     if (bmi <= 18.5) {
+//       return "Underweight";
+//     } if  (bmi <= 25) {
+//       return "Normal";
+//     } if  (bmi <= 30) {
+//       return "Overweight";
+//     }
+//   return "Obese";
+// }
+// bmi(80, 1.80);
+
+// function grow(x) {
+//   let sum = 1;
+//   for (const ch of x) {
+//     sum *= ch;
+//   }
+//   return sum;
+// }
+
+// function switchItUp(number){
+//   switch (number) {
+//     case 1:
+//       return "One";
+//     case 2:
+//       return "Two";
+//     case 3:
+//       return "Three";
+//     case 4:
+//       return "Four";
+//     case 5:
+//       return "Five";
+//       case 6:
+//       return "Six";
+//       case 7:
+//       return "Seven";
+//       case 8:
+//       return "Eight";
+//       case 9:
+//       return "Nine";
+//       case 0:
+//       return "Zero";
+   
+//   }
+// }
+// switchItUp(1);
+
+// function repeatStr(n, s) {
+//   let result = '';
+//   for (let i = 1; i <= n; i++) {
+//     result += s;
+//   }
+//   return console.log(result);
+// }
+// repeatStr(3, "***");
+
+// function litres(time) {
+//   let sum = time * 0.5;
+//   return console.log(Math.floor(sum));
+// }
+// litres(11.8);
+
+//let greet = (str) => "hello world!";
+
+// function lovefunc(flower1, flower2) {
+//   if (flower1 % 2 == 0 && flower2 % 2 == 1) {
+//     return true;
+//   } if (flower2 % 2 == 0 && flower1 % 2 == 1) {
+//     return true;
+//   }
+//   return false;
+// }
+
+// function simpleMultiplication(number) {
+//   if (number % 2 == 0) {
+//     return number * 8;
+//   }
+//   return number * 9;
+// }
+
+// function removeChar(str){
+//   sum = str.slice(1,-1);
+//   return console.log(sum);
+// }
+// removeChar("al45o");
+
