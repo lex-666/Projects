@@ -187,12 +187,33 @@
 //   return arr;
 // }
 
-function problem(x) {
-  if ([.123456789].includes(x)) {
-    return console.log(x * 50 + 6);
-  } else {
-    return console.log("Error");
-  }
-}
+// function problem(x) {
+//   if (x.toLowerCase === x.toUpperCase) {
+//     return console.log(x * 50 + 6);
+//   } else {
+//     return console.log("Error");
+//   }
+// }
 
-problem(123);
+// problem(1);
+
+// function isIsogram(str){
+//   let a = '';
+//   let str1 = str.toLowerCase();
+//   console.log(str1);
+//   if (str.length === 0) {
+//     return console.log("true");
+//   }
+//   for (let j = 0; j < str1.length; j++) {
+//     for (let i = j; i < str1.length; i++) {
+//       if (str1[j] === str1[i+1]) {
+//         console.log(str1[j], str1[i], str1[j] !== str1[i]);
+//         return console.log("false");
+//       }
+//     }
+//   }
+//   return console.log("true");
+// }
+// isIsogram("");
+
+
