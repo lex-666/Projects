@@ -160,3 +160,39 @@
 // }
 // removeChar("al45o");
 
+// function getAverage(marks){
+//   let sum = 0;
+//   for (const ch of marks) {
+//     sum += ch;
+//   }
+//   return Math.floor(sum / marks.length);
+// }
+
+//
+
+// function areYouPlayingBanjo(name) {
+//   if (name.charAt(0).toLowerCase() === "r") {
+//     return console.log(name + ' plays banjo');
+//   } else{
+//     return console.log(name + ' does not play banjo');
+//   }
+// }
+// areYouPlayingBanjo("Ralo");
+
+// function preFizz(n) {
+//   let arr = [];
+//   for (let i = 1; i <= n; i++) {
+//     arr.push(i);
+//   }
+//   return arr;
+// }
+
+function problem(x) {
+  if ([.123456789].includes(x)) {
+    return console.log(x * 50 + 6);
+  } else {
+    return console.log("Error");
+  }
+}
+
+problem(123);
