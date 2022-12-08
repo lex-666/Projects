@@ -216,4 +216,15 @@
 // }
 // isIsogram("");
 
-
+function fakeBin(input) {
+    let str1 = '';
+    let inp = input.toString();
+ for (let i = 0; i <inp.length; i++) {
+    if (inp[i] < 5) {
+       str1 = str1 + 0; 
+    } else
+        str1 = str1 + 1; 
+ }
+ return console.log(str1);
+}
+fakeBin(12345);
