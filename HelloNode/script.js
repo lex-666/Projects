@@ -248,3 +248,43 @@
 // }
 // removeSmallest([5, 3, 2, 1, 4]);
 
+// function apple(x) {
+//    let sq = Number(x * x);
+//     if (sq > 1000) {
+//        return "It's hotter than the sun!!";
+//    } return "Help yourself to a honeycomb Yorkie for the glovebox.";
+// }
+
+// function part(x){
+//    let va = ["Partridge", "PearTree", "Chat", "Dan", "Toblerone", "Lynn", "AlphaPapa", "Nomad"];
+//    let count = 0;
+//    let str = "Mine's a Pint!";
+//    for (const ch of x) {
+//       if (va.includes(ch)) {
+//          count++;
+//       }
+//    }
+//    if (count === 0) {
+//       return console.log("Lynn, I've pierced my foot on a spike!!");
+//    } else
+//       for (let i = 1; i < count; i++) {
+//       str += "!";
+//       }
+//    //console.log(count);
+//    return console.log(str);
+// }
+// part(['Grouse', 'Partridge', 'Pheasant', 'Goose', 'Starling', 'Robin', 'Thrush', 'Emu', 'PearTree', 'Chat', 'Dan', 'Square', 'Toblerone', 'Lynn', 'AlphaPapa', 'BMW', 'Graham', 'Tool', 'Nomad', 'Finger', 'Hamster']);
+
+
+// function alan(x){
+//    let va = ["Rejection", "Disappointment", "Backstabbing Central", "Shattered Dreams Parkway"];
+//    for (const ch of va) {
+//       //console.log(x.includes(ch));
+//       if (!x.includes(ch)) {
+//          return console.log("No, seriously, run. You will miss it.");
+//       } 
+//    }
+//    return console.log("Smell my cheese you mother!,");
+// }
+// alan(["Backstabbing Central","Tiverton","Tiverton","Backstabbing Central","Rejection","North Norfolk Digital","Shattered Dreams Parkway","the Moon","Norwich"]);
+
