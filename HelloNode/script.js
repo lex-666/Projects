@@ -216,15 +216,35 @@
 // }
 // isIsogram("");
 
-function fakeBin(input) {
-    let str1 = '';
-    let inp = input.toString();
- for (let i = 0; i <inp.length; i++) {
-    if (inp[i] < 5) {
-       str1 = str1 + 0; 
-    } else
-        str1 = str1 + 1; 
- }
- return console.log(str1);
-}
-fakeBin(12345);
+// function fakeBin(input) {
+//     let str1 = '';
+//     let inp = input.toString();
+//  for (let i = 0; i <inp.length; i++) {
+//     if (inp[i] < 5) {
+//        str1 = str1 + 0;
+//     } else
+//         str1 = str1 + 1;
+//  }
+//  return console.log(str1);
+// }
+// fakeBin(12345);
+
+// function removeSmallest(numbers) {
+//    let arr = [];
+//    let min = numbers[0];
+//    let n = 0;
+//    for (let i = 0; i < numbers.length; i++) {
+//       arr.push(numbers[i]);
+//       if (numbers[i] < min) {
+//          min = numbers[i];
+//          n = i;
+//          console.log(min, n);
+//       }
+//    }
+//    console.log(numbers);
+//    console.log(min, n);
+//    arr.splice(n,1);
+//    return console.log(arr);
+// }
+// removeSmallest([5, 3, 2, 1, 4]);
+
