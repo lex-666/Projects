@@ -282,9 +282,67 @@
 //       //console.log(x.includes(ch));
 //       if (!x.includes(ch)) {
 //          return console.log("No, seriously, run. You will miss it.");
-//       } 
+//       }
 //    }
 //    return console.log("Smell my cheese you mother!,");
 // }
 // alan(["Backstabbing Central","Tiverton","Tiverton","Backstabbing Central","Rejection","North Norfolk Digital","Shattered Dreams Parkway","the Moon","Norwich"]);
 
+// function abbrevName(name) {
+//    let n = name.toUpperCase();
+//    let str = n[0]+".";
+//    for (let i = 0; i < n.length; i++) {
+//       if (n[i] === " ") {
+//          str = str + n[i+1];
+//       }
+//    }
+//    return console.log(str);
+// }
+// abbrevName("sam harris");
+
+// function basicOp(operation, value1, value2) {
+//    if (operation === "+") {
+//       return console.log(value1 + value2);
+//    } if (operation === "-") {
+//       return console.log(value1 - value2);
+//    } if (operation === "*") {
+//       return console.log(value1 * value2);
+//    } if (operation === "/") {
+//       return console.log(value1 / value2);
+//    }
+// }
+// basicOp('*', 4, 7);
+
+// function countPositivesSumNegatives(input) {
+//   let countpos = 0;
+//   let countneg = 0;
+//    if (input === null){
+//     return [];
+//      } if (input.length === 0){
+//       return [];
+//    }
+   
+//    for (let i = 0; i < input.length; i++) {
+//      if (input[i] > 0) {
+//       countpos++;
+//     } if (input[i] < 0) {
+//       countneg+=input[i];
+//     }
+// }
+//   return [countpos, countneg];
+// }
+
+// function check(a, x) {
+//    //let value = x.toString();
+//    //let b = a.toString();
+//    console.log(a);
+//    for (let i = 0; i < a.length; i++) {
+//       if (a[i] === x) {
+//          console.log(a[i], x);
+//          //return console.log("false");
+//          return console.log("true");
+//       } //return console.log("true"); //console.log(a[i], x);
+//    }
+//    return console.log("false");
+// }
+// check(['t', 'e', 's', 't'], 'b');
