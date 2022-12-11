@@ -457,3 +457,66 @@
 //       return false;
 //    } return true;
 // }
+
+// function shortcut(string) {
+//    let result = '';
+//    for (let i = 0; i < string.length; i++) {
+//       if (string[i] === "a" || string[i] === "e" || string[i] === "i" || string[i] === "o" || string[i] === "u") {
+//       } else
+//          result = result + string[i];
+//    }
+//   return console.log(result);
+// }
+// shortcut("HELLO");
+
+// function strCount(str, letter){
+//    let count = 0;
+//    for (const ch of str) {
+//       if (letter.includes(ch)) {
+//          count++;
+//          console.log(str.includes(letter));
+//       }
+//    }
+//    return console.log(count);
+// }
+// strCount('Hello', 'l');
+
+// function include(arr, item) {
+//    for (const ch of arr) {
+//       if (ch === item) {
+//          return console.log("true");
+//       }
+//    }
+//    return console.log("false");
+// }
+// include([1, 2, 3, 4], 5);
+
+// function cockroachSpeed(s) {
+//   return Math.floor((s*100000)/3600);
+// }
+
+// function getRealFloor(n) {
+//    if (n <= 0) {
+//       return n;
+//    } if (n >= 0 && n <= 12) {
+//       return n - 1;
+//    } return n - 2;
+// }
+
+// const areaOrPerimeter = function(l , w) {
+//   if (l === w) {
+//   return l*w;
+// } if (l > w || l <w ) {
+//   return l*2+w*2;
+// }
+// }
+  
+// function countSheeps(arrayOfSheep) {
+//   let sum = 0;
+//   for (const ch of arrayOfSheep){
+//     if (ch === true) {
+//       sum++;
+//     }
+//   }
+//   return sum;
+// }
