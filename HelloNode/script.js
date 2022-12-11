@@ -346,3 +346,114 @@
 //    return console.log("false");
 // }
 // check(['t', 'e', 's', 't'], 'b');
+
+// function oddCount(n){
+//    let arr = [];
+//    let count = 0;
+//    for (let i = 1; i < n; i = i + 2) {
+//       //arr.push(i);
+//       count++;
+//    }
+//    return console.log(count);
+// }
+// oddCount(15);
+// function oddCount(n) {
+//    return console.log(Math.floor(n / 2));
+// }
+// oddCount(15023);
+
+// function numberToPower(number, power){
+//   console.info(Math.log2(1024));
+//   let sum = 1;
+//   for (let i = 1; i <= power; i++) {
+//     sum = sum*number;
+//   }
+//   return console.log(sum);
+// }
+// numberToPower(10, 4);
+
+// function first(arr, n) {
+//    let result = [];
+//    arr1 = arr.join(",");
+//    console.log(arr1);
+//    if (n === undefined) {
+//        return [arr[0]];
+//     }
+//    for (let i = 0; i < n; i++) {
+//       result.push(arr[i]);
+//    }
+//    return console.log(result);
+// }
+// first([a, b, c, d, e], 2);
+// function first(arr, n=1) {
+//    return arr.slice(0,n);
+// }
+// first([a, b, c, d, e], 2);
+
+// function century(year) {
+//   return Math.ceil(year/100);
+// }
+
+// function excludingVatPrice(price) {
+//    if (price === null) {
+//       return -1;
+//    }
+//     return console.log((price/1.15).toFixed(2));
+// }
+// excludingVatPrice(-257);
+
+// function findAverage(array) {
+//   if (array.length === 0){
+//   return 0;
+//     }
+//   let ave = 0;
+//   for (let i = 0; i < array.length; i++){
+//     ave +=array[i];
+//   }
+//   return ave/array.length;
+// }
+
+// function enough(cap, on, wait) {
+//    if (on + wait <= cap) {
+//       return 0;
+//    } return console.log(Math.abs(cap -on - wait));
+// }
+// enough(84, 57, 72);
+
+// function dutyFree(normPrice, discount, hol){
+
+// }
+
+// function updateLight(current) {
+//   switch (current) {
+//       case "green":
+//       return "yellow";
+//       case "yellow":
+//       return "red";
+//       case "red":
+//       return "green";
+//   }
+  
+
+// }
+
+// function remainder(n, m){
+//    if (n > m) {
+//       return n % m;
+//    } return m % n;
+  
+// }
+
+// function twiceAsOld(dadYearsOld, sonYearsOld) {
+//   return Math.abs(dadYearsOld-sonYearsOld*2);
+// }
+
+// function betterThanAverage(classPoints, yourPoints) {
+//    let ave = 0;
+//    for (let i = 0; i < classPoints.length; i++) {
+//       ave += classPoints[i];
+//    }
+//    if ((ave + yourPoints) / (classPoints.length + 1) > yourPoints) {
+//       return false;
+//    } return true;
+// }
