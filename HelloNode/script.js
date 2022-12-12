@@ -520,3 +520,32 @@
 //   }
 //   return sum;
 // }
+
+// function stray(numbers) {
+//     let count1 = 0;
+//     let count2 = 0;
+//     for (let i = 0; i < numbers.length; i++) {
+//         if (numbers[i] === numbers[i + 1]) {
+//             count1 = numbers[i];
+//         } else { count2  === numbers[i]; }
+//     }
+//         return console.log(count1, count2);
+// }
+// stray([17, 17, 3, 17, 17, 17, 17]);
+
+// function getSum(a, b) {
+//     let sum = 0;
+//     if (a > b) {
+//         for (let i = b; i <= a; i++) {
+//             sum += i;
+//         }
+//     } if (a < b) {
+//         for (let i = a; i <= b; i++) {
+//             sum += i;
+//         }
+//     } if (a === b) {
+//         return console.log(a);
+//     }
+//     return console.log(sum);
+// }
+// getSum(-5, -5);
