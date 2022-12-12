@@ -522,14 +522,27 @@
 // }
 
 // function stray(numbers) {
-//     let count1 = 0;
+//     let count1 = numbers[0];
 //     let count2 = 0;
-//     for (let i = 0; i < numbers.length; i++) {
-//         if (numbers[i] === numbers[i + 1]) {
-//             count1 = numbers[i];
-//         } else { count2  === numbers[i]; }
+//     let a = 0;
+//     let b = 0;
+//     for (const ch of numbers) {
+//     if (count1 !== ch) {
+//             count2 = ch;
+//         } 
 //     }
-//         return console.log(count1, count2);
+//     for (const ch of numbers) {
+//         if (count1 === ch) {
+//             a++;
+//         } if (count2 === ch) {
+//             b++;
+//         }
+//     }
+//     if (a > b) {
+//         return console.log(count2)
+//     }
+//     return console.log(count1);
+        
 // }
 // stray([17, 17, 3, 17, 17, 17, 17]);
 
@@ -549,3 +562,4 @@
 //     return console.log(sum);
 // }
 // getSum(-5, -5);
+
