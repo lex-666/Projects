@@ -563,3 +563,25 @@
 // }
 // getSum(-5, -5);
 
+function isJumping(number) { 
+  const str = number.toString();
+  
+  if (str.length === 1) {
+    return ('JUMPING');
+  }
+  let a = str[0];
+  
+  for (let i = 1; i < str.length; i++) {
+    if (str[i] !== a) {
+      if (str[i] - a === 1 || Math.abs(str[i] - a) === 1 ) {
+        console.log(str[i-a]);
+      a = str[i]; 
+      return ('JUMPING');
+    }     
+      return ('NOT JUMPING');
+    } 
+   return ('NOT JUMPING');
+  }
+  return ('JUMPING');
+}
+isJumping(23454);
