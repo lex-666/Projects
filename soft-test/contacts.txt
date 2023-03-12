@@ -1,0 +1,3 @@
+{"email":"lexart666@gmail.com","message":"hi"}
+{"email":"lex666@mail.ru","message":"gogogogog"}
+{"email":"Hello@friend","message":"sun is shining"}

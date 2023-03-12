@@ -1,0 +1,23 @@
+[
+   {
+      "id":1,
+      "name":"Video",
+      "price":100,
+      "image":"img/video-button.svg",
+      "description":"HERES HOW WE STUDY AND MAKE COFFEE"
+   },
+   {
+      "id":2,
+      "name":"Video",
+      "price":200,
+      "image":"img/video-button.svg",
+      "description":"HERES HOW WE STUDY AND MAKE COFFEE"
+   },
+   {
+      "id":3,
+      "name":"Video",
+      "price":300,
+      "image":"img/video-button.svg",
+      "description":"HERES HOW WE STUDY AND MAKE COFFEE"
+   }
+]
